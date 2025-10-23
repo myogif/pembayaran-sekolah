@@ -1,7 +1,7 @@
-const express = require('express');
-const cors = require('cors');
-const morgan = require('morgan');
-const dotenv = require('dotenv');
+import express from 'express';
+import cors from 'cors';
+import morgan from 'morgan';
+import dotenv from 'dotenv';
 
 dotenv.config();
 
@@ -21,5 +21,3 @@ app.listen(PORT, () => {
   // eslint-disable-next-line no-console
   console.log(`API server listening on port ${PORT}`);
 });
-
-module.exports = app;
