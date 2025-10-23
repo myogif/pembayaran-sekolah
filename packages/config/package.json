@@ -1,0 +1,12 @@
+{
+  "name": "@spp-sekolahala/config",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "files": [
+    "eslint/index.cjs",
+    "prettier/index.cjs",
+    "husky/README.md",
+    "lint-staged.json"
+  ]
+}
